@@ -1,0 +1,42 @@
+#experience{
+    height: 600px;
+}
+
+#experience>p{
+    display: inline;
+
+    margin-left: 16px;
+}
+
+#experience>ul{
+    flex-direction: column;
+
+    margin-top: 40px;
+
+    border-top: 1px solid #FFFFFF;
+}
+
+#experience>ul>li{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    height: 77px;
+
+    padding: 0 10px;
+
+    border-bottom: 1px dashed #DDDDDD;
+}
+
+#experience>ul>li>*{
+    align-self: center;
+}
+
+#experience>ul>li>p{
+    color: #FFFFFF80;
+}
+
+#experience>ul>li>p:last-child{
+    grid-column-start: 4;
+
+    text-align: end;
+}
