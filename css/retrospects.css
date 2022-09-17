@@ -1,0 +1,94 @@
+#retrospects{
+    height: 1010px;
+
+    padding: 156px calc((100% - 1280px) / 2);
+
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#retrospects>ul{
+    display: grid;
+    grid: repeat(2, 308px) / repeat(auto-fill, 308px);
+    gap: 16px;
+
+    margin-top: 34px;
+}
+
+#retrospects>ul>li{
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+#retrospects>ul>li>a:hover{
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#retrospects>ul>li>a:hover h3{
+    color: white;
+}
+
+#retrospects>ul>li:nth-child(1){
+    background: url("../resources/retrospects1.png"), #D9D9D9;
+    background-size: contain;
+}
+
+
+#retrospects>ul>li:nth-child(2){
+    background: url("../resources/retrospects2.png"), #D9D9D9;
+    background-size: contain;
+}
+
+#retrospects>ul>li:nth-child(3){
+    background: url("../resources/retrospects3.png"), #D9D9D9;
+    background-size: contain;
+}
+
+#retrospects>ul>li:nth-child(4){
+    background: url("../resources/retrospects4.png"), #D9D9D9;
+    background-size: contain;
+}
+
+#retrospects>ul>li:nth-child(5){
+    background: url("../resources/retrospects5.png"), #D9D9D9;
+    background-size: contain;
+}
+
+#retrospects>ul>li:nth-child(6){
+    background: url("../resources/retrospects6.png"), #D9D9D9;
+    background-size: contain;
+}
+
+#retrospects>ul>li:nth-child(7){
+    background: url("../resources/retrospects7.png"), #D9D9D9;
+    background-size: contain;
+}
+
+#retrospects>ul>li:nth-child(8){
+    background: url("../resources/retrospects8.png"), #D9D9D9;
+    background-size: contain;
+}
+
+#retrospects>ul>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+#retrospects>ul>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+#retrospects h3{
+    font-size: 20px;
+
+    color: transparent;
+}
