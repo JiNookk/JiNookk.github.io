@@ -3,6 +3,7 @@
     align-items: center;
 
     height: 700px;
+    padding-inline: calc((100% - 1280px) / 2);
 }
 
 #introduce>img{

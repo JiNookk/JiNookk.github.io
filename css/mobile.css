@@ -11,7 +11,7 @@
         width: 100%;
         height: auto;
 
-        padding: 0 4.26vw;
+        padding: 0;
     }
 
     h2{
@@ -74,7 +74,8 @@
         height: auto;
 
         padding-top: 33vw;
-        /* padding-bottom: 21.3vw */
+
+        padding-inline: 4.26vw;
     }
 
     #introduce>img{
@@ -141,7 +142,7 @@
     #projects{
         height: auto;
 
-        padding: 21.67vw 0;
+        padding: 21.67vw 4.26vw;
 
         background: rgba(0, 0, 0, 0.2);
     }
@@ -196,7 +197,7 @@
     #experience{
         height: auto;
 
-        padding: 20.5vw 0;
+        padding: 20.5vw 4.26vw;
     }
 
     #experience>ul{
@@ -241,7 +242,7 @@
     #retrospects{
         height: auto;
 
-        padding: 20.6vw 0;
+        padding: 20.6vw 4.26vw;
     }
 
     #retrospects>p{
@@ -276,6 +277,7 @@
 
         padding-top: 18.67vw;
         padding-bottom: 21.3vw;
+        padding-inline: 4.26vw;
     }
 
     #contacts>div{
